@@ -6,7 +6,6 @@
     <a class="skip-link screen-reader-text" href="#content">{{ 'Skip to content' }}</a>
     <header>
       {% block header %}
-        {% include 'header.twig' %}
       {% endblock %}
     </header>
     <main id="content" role="main" class="content-wrapper">
@@ -16,7 +15,6 @@
     </main>
     <footer>
     {% block footer %}
-      {% include 'footer.twig' %}
     {% endblock %}
     </footer>
     {{ function('wp_footer') }}
