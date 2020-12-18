@@ -1,0 +1,6 @@
+<article>
+	{% block content %}
+		<h2><a href="{{post.link}}">{{post.title}}</a></h2>
+		<p>{{post.excerpt.length(10).force.read_more('Continue Reading')}}</p>
+	{% endblock %}
+</article> 
