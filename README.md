@@ -10,6 +10,8 @@ This repo includes the code used in the multipart post: _Wordpress theme from sc
 
 [Part 4](https://devcrumbs.com/wordpress-theme-from-scratch-with-timber-2-part-4/) - Single post
 
+[Part 5](https://devcrumbs.com/wordpress-theme-from-scratch-with-timber-2-part-5/) - Enqueuing styles
+
 ## How to use the Wordpress theme
 Each part contains a working Wordpress theme. To use them follow these steps:
 
