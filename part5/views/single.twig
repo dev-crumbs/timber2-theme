@@ -1,0 +1,19 @@
+{% extends "base.twig" %}
+
+{% block content %}
+    <article>
+      <h1>{{ post.title }}</h1>
+      <div class="post-meta">
+        <span>By</span>
+        <a class="author" href="{{post.author.path}}">
+          {{ post.author.name }}
+        </a>
+        <span>&bull;</span>
+        <time class="time" datetime="{{ post.date|date('Y-m-d H:i:s') }}">{{ post.date }}</time>
+      </div>
+      <div class="post-body">
+        {{post.content}}
+      </div>
+    </article>  
+{% endblock %}
+
